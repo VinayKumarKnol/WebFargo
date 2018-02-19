@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fargo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/designSheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" id="banner">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">Fargo</a>
+        </div>
+        <ul id="menu" class="nav navbar-nav navbar-right">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#aboutUs">ABOUT US</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
+<div id="slideShowBack">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../images/1.jpg" alt="1">
+            </div>
+
+            <div class="item">
+                <img src="../images/2.jpg" alt="2">
+            </div>
+
+            <div class="item">
+                <img src="../images/3.jpeg" alt="3">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left colorChevron"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right colorChevron"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<div class="card card-body row container-fluid">
+    <h1 class="menuItem text-center" id="aboutUs">About Us</h1>
+    <hr>
+    <p class="description text-center">We provide services to open source systems, for free.<br>
+        Why do we do that for free is because we are not one organization.<br>
+        We are a collection of people from various walks of life.<br>
+        We're crazy too.
+    </p><br><br>
+
+
+    <div class="custom-white">
+        <div class="panel-group col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" href="#collapse1">JQuery</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="row card card-body">
+                            <div class="col-md-6">
+                                <img src="../images/4.png" class="img-responsive margin img-fluid"
+                                     alt="Image">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="imageDescription">
+                                    jQuery is a cross-platform JavaScript library designed to
+                                    simplify the client-side scripting of HTML. It is free,
+                                    open-source software using the permissive MIT License.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" href="#collapse2">JQuery Friends</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="row card card-body">
+                            <div class="col-md-6">
+                                <img src="../images/4.png" class="img-responsive margin img-fluid"
+                                     alt="Image">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="imageDescription">
+                                    jQuery is a cross-platform JavaScript library designed to
+                                    simplify the client-side scripting of HTML. It is free,
+                                    open-source software using the permissive MIT License.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a class="accordion-toggle" data-toggle="collapse" href="#collapse3">Some Other Jquery</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <div class="row card card-body">
+                            <div class="col-md-6">
+                                <img src="../images/4.png" class="img-responsive margin img-fluid"
+                                     alt="Image">
+                            </div>
+                            <div class="col-md-6">
+                                <p class="imageDescription">
+                                    jQuery is a cross-platform JavaScript library designed to
+                                    simplify the client-side scripting of HTML. It is free,
+                                    open-source software using the permissive MIT License.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="container-fluid text-center custom-white">
+    <h1 class="menuItem text-center" id="services">Services</h1>
+    <hr>
+    <p class="description">
+        We try to do everything with perfection.<br>
+        If we could be politicians we would be so fake,<br>
+        that you would never believe that we actually delivered<br>
+        our promise.
+    </p><br><br>
+    <br>
+    <div class="row">
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-flash logo"></span>
+            <h4>Fully Responsive</h4>
+            <p>We know how bad worse is.</p>
+        </div>
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-eye-open logo"></span>
+            <h4>Retina Ready</h4>
+            <p>G-L-A-M-O-R-O-U-S</p>
+        </div>
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-leaf logo"></span>
+            <h4>Fresh & Clean</h4>
+            <p>We have a team committed to do just that</p>
+        </div>
+        <div class="col-sm-3">
+            <span class="glyphicon glyphicon-wrench logo"></span>
+            <h4>Easy to Customize</h4>
+            <p>Just Dream, and then do it</p>
+        </div>
+    </div>
+</div>
+
+<div class="card row container-fluid">
+    <div class="text-center">
+        <h1 class="menuItem" id="contact">Contact</h1>
+        <hr>
+        <div class="container">
+            <form action="GET">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="india">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="singapore">Singapore</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
